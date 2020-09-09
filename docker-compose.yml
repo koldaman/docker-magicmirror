@@ -6,8 +6,7 @@ services:
     restart: always
     volumes:
       - /etc/localtime:/etc/localtime:ro
-      - /home/docker/magic_mirror/config:/opt/magic_mirror/config
-      - /home/docker/magic_mirror/modules:/opt/magic_mirror/modules
-      - /home/docker/magic_mirror/css/custom.css:/opt/magic_mirror/css/custom.css
+      - /home/pkolar/projects/private/docker/docker-magicmirror/config:/opt/magic_mirror/config
+      - /home/pkolar/projects/private/docker/docker-magicmirror/css/custom.css:/opt/magic_mirror/css/custom.css
     ports:
-      - 8888:8080 
+      - 8888:8080

@@ -100,7 +100,7 @@ var config = {
 				calendars: [
 					{  
 						symbol: "calendar-check",
-						url: "doplnit-zde-url"
+						url: "https://calendar.google.com/calendar/ical/3lj2aj28k57a3pbgau358hbdu0%40group.calendar.google.com/private-a1a564d626fc00431f67f6930440d35b/basic.ics"
 					}
 				]
 			}
