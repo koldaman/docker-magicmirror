@@ -1,0 +1,13 @@
+version: '2'
+services:
+  magicmirror:
+    container_name: magicmirror
+    image: mymagicmirror:1.0
+    restart: always
+    volumes:
+      - /etc/localtime:/etc/localtime:ro
+      - /home/docker/magic_mirror/config:/opt/magic_mirror/config
+      - /home/docker/magic_mirror/modules:/opt/magic_mirror/modules
+      - /home/docker/magic_mirror/css/custom.css:/opt/magic_mirror/css/custom.css
+    ports:
+      - 8888:8080 
